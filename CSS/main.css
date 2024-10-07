@@ -173,5 +173,29 @@ main {
 }
 
 .footer {
-  background-color: #13183F;
+  background-color: #13183f;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer img {
+  width: 111px;
+}
+
+.footer .button {
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  color: white;
+}
+
+.footer .button:hover {
+  background: linear-gradient(180deg, #a8b5ff 0%, #f89bd0 100%);
 }
